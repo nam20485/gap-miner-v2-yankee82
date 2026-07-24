@@ -1,0 +1,14 @@
+# Kilo agent session state
+.kilo/
+
+# gh-issue-tracking-init forensic run logs (one timestamped file per run)
+gh-init-*.log
+
+# Local-only GPG signing notes (contains workflow/secrets guidance, not for commit)
+docs/gpg-non-interactive-signing.md
+
+# Test result artifacts
+testResults.xml
+
+# Scratch / temporary issue-body files
+scripts/tmp-*.txt
