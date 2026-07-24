@@ -1,6 +1,6 @@
 # Plan — Issue body content fidelity (upstream skill fix)
 
-**From:** forensic review of the `/gh-issue-tracking-init` run against `intel-agency/gap-miner-v2-india89` (Project #92, 30 issues, 2026-07-20).
+**From:** forensic review of the `/gh-issue-tracking-init` run against `nam20485/gap-miner-v2-india89` (Project #92, 30 issues, 2026-07-20).
 **Audience:** upstream dev team — maintainers of the canonical template repo + the `gh-issue-tracking-init` skill.
 **Purpose:** record every content-fidelity defect found in the generated issue bodies, their root cause, measured performance impact of the fix, and the concrete changes to land upstream so every clone inherits correct, dev-ready issues.
 **Companion doc:** [`upstream-handoff-identity-and-phase-warning.md`](./upstream-handoff-identity-and-phase-warning.md) covers three *separate* upstream defects (AGENTS.md identity mislabel, `set-project-fields.ps1` Phase-warning bug, the Phase→Epic mapping rule). This doc is about **what the issue bodies contain**.
@@ -150,7 +150,7 @@ Body size (bytes):                THIN (current)   RICH (verbatim)   delta
 
 ## 7. Evidence artifacts (this repo, for reference)
 
-- Live issues: `https://github.com/intel-agency/gap-miner-v2-india89/issues/1` (Plan), `…/3` (sample story).
+- Live issues: `https://github.com/nam20485/gap-miner-v2-india89/issues/1` (Plan), `…/3` (sample story).
 - Generated bodies (thin): `/tmp/kilo/gap-miner-v2-india89/bodies/` (driver: `/tmp/kilo/gap-miner-v2-india89/driver.ps1`).
 - Rich-body experiment: `/tmp/kilo/gap-miner-v2-india89/diag/rich-gen-experiment.ps1` → `/tmp/kilo/gap-miner-v2-india89/diag/rich-bodies/`.
 - Run forensic log: `gh-init-gap-miner-v2-india89-20260720T184908Z.log` (435 calls, 0 failures, 8m15s).

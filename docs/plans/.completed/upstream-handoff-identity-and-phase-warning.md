@@ -1,6 +1,6 @@
 # Handoff — two upstream defects to correct
 
-**From:** run of `/gh-issue-tracking-init` against `intel-agency/gap-miner-v2-india89` (Project #92, 2026-07-20)
+**From:** run of `/gh-issue-tracking-init` against `nam20485/gap-miner-v2-india89` (Project #92, 2026-07-20)
 **Audience:** upstream dev team (maintainers of the canonical template + the `gh-issue-tracking-init` skill)
 **Scope:** two defects found during the india89 seeding run, plus a clean scan of the run log, working copy, and GitHub assets.
 
@@ -11,14 +11,14 @@
 ### Symptom
 `AGENTS.md:5` reads:
 
-> This repository — **`intel-agency/gap-miner-v2-india89`** — is the **upstream GitHub template**: it is cloned to seed each downstream instance …
+> This repository — **`nam20485/gap-miner-v2-india89`** — is the **upstream GitHub template**: it is cloned to seed each downstream instance …
 
 This is **wrong for this repo**: `gap-miner-v2-india89` is a **downstream clone instance**, not the template.
 
 ### Evidence (this is template-wide, not india89-specific)
 The same self-referential text appears in **every** clone with only the repo *name* substituted. Confirmed against a sibling:
 
-> `gap-miner-v2-delta12` `AGENTS.md:5`: "This repository — **`intel-agency/gap-miner-v2-delta12`** — is the **upstream GitHub template** …"
+> `gap-miner-v2-delta12` `AGENTS.md:5`: "This repository — **`nam20485/gap-miner-v2-delta12`** — is the **upstream GitHub template** …"
 
 All 14 `gap-miner-v2-*` repos carry the same `-<codename>` suffix, so none of them is the unsuffixed canonical template. The clone-creation replacement substitutes the repo **name** but leaves the **role label** (`upstream GitHub template`) intact — classic Class-2 template-self-referential contamination (the very failure mode documented in `docs/plans/template-content-strategy-plan.md` / the "Template vs. clone content strategy" memory entry, work item **W1**).
 

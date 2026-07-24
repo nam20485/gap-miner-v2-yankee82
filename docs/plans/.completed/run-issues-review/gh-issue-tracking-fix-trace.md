@@ -1,7 +1,7 @@
 # gh-issue-tracking-init: Fix driver bugs & add trace logging
 
 **Plan path:** `.kilo/plans/1784192093660-gh-issue-tracking-fix-trace.md`
-**Repo:** `intel-agency/gap-miner-v2-oscar32` · **Project:** `#88`
+**Repo:** `nam20485/gap-miner-v2-oscar32` · **Project:** `#88`
 **Driver:** `/tmp/kilo/gh-init-driver.ps1`
 **Baseline:** `docs/plans/gh-issue-tracking/gh-issue-tracking-init-run-review.md`
 
@@ -153,7 +153,7 @@ Trace `OK verify` if every expected matches, `ERR verify` for each mismatch. Con
 - `gh issue list --repo $Repo --state all --limit 100 --json title | jq 'length'` → **30**.
 - `gh api repos/$Repo/issues/1/sub_issues --jq 'length'` → **7** (the 7 epics).
 - For each epic `#2..#8`, `sub_issues` length matches that epic's story count.
-- `gh project item-list 88 --owner intel-agency --format json --jq '.totalCount'` → **30**.
+- `gh project item-list 88 --owner nam20485 --format json --jq '.totalCount'` → **30**.
 - `gh api repos/$Repo/issues/<story>/dependencies/blocked_by --jq 'length'` sums to **32**.
 
 ### Idempotency

@@ -5,7 +5,7 @@
 **Purpose:** propagate the fixes below into the parent template so new clones don't repeat the same failure modes.
 
 > These findings came from composing a single PowerShell orchestration driver for a 30-issue
-> hierarchy (`Plan → 7 Epics → 22 Stories`) on `intel-agency/gap-miner-v2-charlie53`. One is a
+> hierarchy (`Plan → 7 Epics → 22 Stories`) on `nam20485/gap-miner-v2-charlie53`. One is a
 > genuine **skill-script contract defect**; the rest are **driver-author pitfalls the skill should
 > structurally prevent**. Each has a ready-to-apply patch.
 
@@ -237,5 +237,5 @@ if (-not $Proj -and -not $DryRun) { throw 'Project number not emitted by ensure-
 - Second DryRun: all 30 titles, milestones, priorities, and areas correct; 29 sub-issue edges + 28
   dependency edges enumerated. No skill-script defects encountered beyond F1 (worked around via
   re-query).
-- The full apply against `intel-agency/gap-miner-v2-charlie53` is pending user confirmation (see
+- The full apply against `nam20485/gap-miner-v2-charlie53` is pending user confirmation (see
   session); the driver and rendered bodies are on disk under `/tmp/kilo/gapminer-gh-init/`.

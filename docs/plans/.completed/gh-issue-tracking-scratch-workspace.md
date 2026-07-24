@@ -1,6 +1,6 @@
 # Upstream Fix — per-repo scratch workspaces for `gh-issue-tracking-init` runs
 
-**Origin:** `intel-agency/gap-miner-v2-kilo38` · **Date:** 2026-07-18
+**Origin:** `nam20485/gap-miner-v2-kilo38` · **Date:** 2026-07-18
 **Target:** the `gh-issue-tracking-init` skill (`.agents/skills/gh-issue-tracking-init/`) **and** the repo-root tool-usage rules (`.agents/rules/tools.md`)
 **Type:** Hygiene / state-isolation convention (no code defect)
 **Status:** Fix applied in this repo (which is the upstream template — see propagation note below)

@@ -1,10 +1,10 @@
 # gh-issue-tracking-init — Execution Review & Issue Report
 
 **Date:** 2026-07-16
-**Target repo:** `intel-agency/gap-miner-v2-oscar32`
+**Target repo:** `nam20485/gap-miner-v2-oscar32`
 **Plan source:** `plan_docs/development-plan.md` (Gap Mining Platform v1.0)
 **Skill:** `.agents/skills/gh-issue-tracking-init/` · driver: `/tmp/kilo/gh-init-driver.ps1`
-**Project created:** #88 — https://github.com/orgs/intel-agency/projects/88
+**Project created:** #88 — https://github.com/orgs/nam20485/projects/88
 
 ---
 
@@ -18,7 +18,7 @@ The skill was invoked to build a `plan → epic → story` issue hierarchy (30 i
 |------|--------|--------|
 | 1/7 Labels (15) | ✅ Created | All canonical labels applied (`plan`,`epic`,`story`,`task`,`P0`–`P3`,`area/*`, status labels). |
 | 2/7 Milestones (7) | ✅ Created | `Phase 0` … `Phase 6`. |
-| 3/7 Project + fields | ✅ Created | Project **#88** under `intel-agency`, linked to repo; fields `Level`, `Priority`, `Estimate` created. |
+| 3/7 Project + fields | ✅ Created | Project **#88** under `nam20485`, linked to repo; fields `Level`, `Priority`, `Estimate` created. |
 | 4/7 Issues (30 planned) | ⚠️ Partial | **8 of 30** created: Plan `#1` + Epics `#2`–`#8`. **22 of 22 stories NOT created.** |
 | 5/7 Sub-issue links | ❌ Skipped/failed | **0 links.** Epics are not sub-issues of the Plan; nothing is nested. |
 | 6/7 Board fields | ❌ Skipped | Board has **0 items**; no `Level`/`Priority`/`Status` set. |

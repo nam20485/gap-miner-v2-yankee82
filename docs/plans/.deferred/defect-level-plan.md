@@ -3,9 +3,9 @@
 | | |
 | --- | --- |
 | **Plan** | Add a `defect` level label + issue template to the gh-issue-tracking-init skill |
-| **Target repo** | `intel-agency/agent-context` |
+| **Target repo** | `nam20485/gap-miner-v2-yankee82` |
 | **Status** | Deferred |
-| **Extracted from** | [`../.completed/agent-context-fix-plan.md`](../.completed/agent-context-fix-plan.md) (was work item W3) |
+| **Extracted from** | [`../.completed/gap-miner-v2-yankee82-fix-plan.md`](../.completed/gap-miner-v2-yankee82-fix-plan.md) (was work item W3) |
 | **Date extracted** | 2026-07-18 |
 | **Reference** | Forensic finding F7 |
 
@@ -13,7 +13,7 @@
 
 ## Why this exists
 
-The `gh-issue-tracking-init` skill ships a level taxonomy of `plan / epic / story / task` but has no `defect` level for bug-fix tasks. Forensic analysis of the skill applied to `intel-agency/gap-miner-v2-sierra46` flagged this as a gap (finding F7). It was originally W3 of the upstream fix plan but was **deferred** (commit `044b4bf defer defect level`) and extracted here so the rest of that plan could be archived as complete.
+The `gh-issue-tracking-init` skill ships a level taxonomy of `plan / epic / story / task` but has no `defect` level for bug-fix tasks. Forensic analysis of the skill applied to `nam20485/gap-miner-v2-sierra46` flagged this as a gap (finding F7). It was originally W3 of the upstream fix plan but was **deferred** (commit `044b4bf defer defect level`) and extracted here so the rest of that plan could be archived as complete.
 
 ## Current state (verified 2026-07-18)
 

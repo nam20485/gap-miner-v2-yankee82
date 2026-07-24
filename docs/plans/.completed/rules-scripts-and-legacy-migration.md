@@ -1,7 +1,7 @@
 # Plan — Add `scripts.md` + `ai-instructions-modules.md` rules; retire stale `local_ai_instruction_modules/`
 
 **Status:** Implementation-ready
-**Target repo:** `intel-agency/agent-context`
+**Target repo:** `nam20485/gap-miner-v2-yankee82`
 
 ## TL;DR
 

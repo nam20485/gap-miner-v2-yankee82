@@ -1,6 +1,6 @@
 # Upstream Fix — `gh-issue-tracking-init` must resolve the plan source non-interactively
 
-**Origin:** `intel-agency/gap-miner-v2-kilo38` · **Date:** 2026-07-18
+**Origin:** `nam20485/gap-miner-v2-kilo38` · **Date:** 2026-07-18
 **Target:** the `gh-issue-tracking-init` skill (`.agents/skills/gh-issue-tracking-init/`)
 **Type:** Skill contract defect (interactive prompt in a non-interactive skill)
 **Status:** Fix applied in this repo (which is the upstream template — see propagation note below)
@@ -25,7 +25,7 @@
 
 ## Symptom (the incident)
 
-Invoking `gh-issue-tracking-init` with no arguments against `intel-agency/gap-miner-v2-kilo38`, where `plan_docs/` contains:
+Invoking `gh-issue-tracking-init` with no arguments against `nam20485/gap-miner-v2-kilo38`, where `plan_docs/` contains:
 
 - `plan_docs/development-plan.md` — *"Gap Mining Platform — Autonomous Agent Development Plan v1.0"*, an executable task plan (Phases 0–6, Tasks T-0.1…T-6.3, acceptance criteria, dependency map).
 - `plan_docs/Strategic Feasibility and Execution Plan for AI-Accelerated Micro-SaaS Ecosystems.md` — prose business/marketing analysis, cited by the dev plan as **"Source References … strategic context"** and again in §1 as *"Read-Only Background"*.
